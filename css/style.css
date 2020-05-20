@@ -18,7 +18,7 @@ nav{
 	text-align: center;
 	text-decoration: none;
 }
-#logo { 
+#logo {
 	font-size: 30px;
 }
 
@@ -88,15 +88,8 @@ hr{
 	height: 3px;
 	margin: 5px;
 }
-td{
-	padding: 8px;
-	text-align: center;
-}
-table, td{
-	border: 2px solid black;
-}
-table img{
-	border: none
+.langs li {
+	margin-left: 20px;
 }
 #square{
 	position: absolute;
@@ -124,6 +117,11 @@ table img{
 	height: 50px;
 	width: 50px;
 }
+
+iframe {
+	width: 80%;
+}
+
 
 /* cursor animation on homepage */
 .cursor {
